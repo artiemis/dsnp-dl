@@ -29,6 +29,9 @@ SCENARIOS_URL = "https://disney.playback.edge.bamgrid.com/media/{MID}/scenarios/
 colorama.init()
 
 
+# TODO: add login instead of manual token file
+
+
 def success(msg):
     print(f"{Fore.GREEN}{msg}{Fore.RESET}")
 
